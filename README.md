@@ -2,6 +2,10 @@
 
 This project is a high-performance C++ game-playing agent developed for the Heirs assignment. The agent is built around a depth-limited minimax search with strong pruning and ordering techniques, designed to balance decision quality with strict time constraints.
 
+## Results
+
+This agent placed **4th out of 201 students** in the competition.
+
 ## Overview
 
 The agent focuses on reaching deeper search depths while maintaining strong move quality. Over time, the design has shifted away from heavy evaluation heuristics toward efficient search improvements, after observing that excessive evaluation logic reduced performance and overall strength.
